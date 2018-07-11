@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<p>&nbsp;</p>
+<h3>报名系统功能菜单</h3>
+<table width="150" >
+<tr><th height="36" scope="row"><a href="register.jsp">考试报名</a></th></tr>
+<tr><th height="36" scope="row"><a href="login.jsp">考生登录</a></th></tr>
+<tr><th height="36" scope="row"><a href="uploadpic.jsp">上传照片</a></th></tr>
+<tr><th height="36" scope="row"><a href="javascript:document.getElementById('submit').submit();"  onClick="document.getElementById('submit').submit();">浏览信息</a></th></tr>
+	<form id="submit" action="helpShowExaminee" name=form method="post">
+	 	<input type="submit" style="display:none"/>
+	</form>
+
+<tr><th height="36" scope="row"><a href="modifypassword.jsp">修改密码</a></th></tr>
+<tr><th height="36" scope="row"><a href="helpGetMessage">修改信息</a></th></tr>
+<tr><th height="36" scope="row"><a href="unregister.jsp">注销考试</a></th></tr>
+<tr><th height="36" scope="row"><a href="helplogout">退出登录</a></th></tr>
+<tr><th height="36" scope="row"><a href="index.jsp" target="_self">返回首页</a></th></tr>
+</table>
+<p>&nbsp;</p>
